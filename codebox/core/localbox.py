@@ -29,7 +29,7 @@ from websockets.sync.client import connect as ws_connect_sync
 from codeboxapi.box import BaseBox
 from codeboxapi.schema import CodeBoxFile, CodeBoxOutput, CodeBoxStatus
 
-from codebox.tmp.settings import settings
+from codebox.core.settings import settings
 
 
 #
