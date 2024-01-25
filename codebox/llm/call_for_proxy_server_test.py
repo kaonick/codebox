@@ -22,7 +22,7 @@ client = openai.OpenAI(
     # base_url = "https://llm-proxy-zmve.onrender.com/"
 )
 # request sent to model set on litellm proxy, `litellm --model`
-response = client.chat.completions.create(model="gpt-4", messages = [
+response = client.chat.completions.create(model="gpt-4v", messages = [
     {
         "role": "user",
         "content": prompt2

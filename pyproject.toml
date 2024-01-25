@@ -20,6 +20,14 @@ redis = "^5.0.1"
 openai = "1.6.1"
 requests = "^2.31.0"
 proxychains = "^1.0"
+streamlit = "^1.30.0"
+plotly = "^5.18.0"
+pandas = "^2.2.0"
+matplotlib = "^3.8.2"
+sidecar = "^0.7.0"
+ipympl = "^0.9.3"
+jupyterlab-lsp = "^5.0.2"
+litellm = "^1.19.2"
 
 
 [build-system]
