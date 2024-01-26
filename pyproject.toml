@@ -28,6 +28,7 @@ sidecar = "^0.7.0"
 ipympl = "^0.9.3"
 jupyterlab-lsp = "^5.0.2"
 litellm = "^1.19.2"
+streamlit-extras = "^0.3.6"
 
 
 [build-system]

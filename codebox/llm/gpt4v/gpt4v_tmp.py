@@ -12,7 +12,7 @@ os.environ["AZURE_API_VERSION"] = "2023-12-01-preview"
 # os.environ["AZURE_API_VERSION"] = "vision-preview"
 model = "azure/dp-gpt4v"  # "azure/dp-gpt4"
 
-
+model
 
 response = completion(
     # api_base="http://localhost:8000", # for llm proxy server
